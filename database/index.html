@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>w8-output</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/sanitize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <section class="login-form">
+    <h2>ログインフォーム</h2>
+    <form action="" class="login" id="loginForm">
+      <h2>Sign in to your account</h2>
+
+      <table class="form-table">
+        <tr>
+          <th>
+            <label for="email" class="email-label">
+              Your email
+            </label>
+          </th>
+          <td>
+            <input type="email" class="email-input" id="email" placeholder="name@company.com">
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <label for="password" class="password-label">Password</label>
+          </th>
+          <td>
+            <input type="password" class="password-input" id="password" placeholder="••••••••">
+          </td>
+        </tr>
+      </table>
+
+      <div class="form-button">
+          <button class="button button-submission" type="submit">Sign in</button>
+      </div>
+      <p>Don't have an account yet? <a href="#">Sign up</a></p>
+    </form>
+
+    <script src="./js/app.js"></script>
+  </section>
+</body>
+</html>
