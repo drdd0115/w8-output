@@ -23,5 +23,4 @@ loginForm.addEventListener("submit", function(e) {
 
   localStorage.setItem("savedEmail", emailInput.value);
   localStorage.setItem("savedPassword", passwordInput.value);
-
 });
